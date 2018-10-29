@@ -1,0 +1,78 @@
+/* 
+ * checker-board.css
+ * made by G Naga Subrahmanyam
+ */
+
+body{
+    font-family: Tahoma, Verdana, Segoe, sans-serif ! important;
+}
+.checker-board-heading{
+    font-family: Tahoma, Verdana, Segoe, sans-serif ! important;    
+    font-size: 22pt;
+}
+
+.checker-board-form{
+    font-family: Tahoma, Verdana, Segoe, sans-serif ! important;    
+    height: 25px;
+    width: 125px;
+    margin-left: 15px;
+    border-radius: 0px; 
+    font-size: 9pt;      
+}
+
+.checker-board-button{
+    width: 75px;
+    height: 25px;    
+    margin-top: 25px;
+    margin-left: 495px;
+    line-height: 0.428571;
+    border-radius: 0px;  
+    font-family: Tahoma, Verdana, Segoe, sans-serif ! important;       
+    font-size: 9pt;      
+}
+label {
+    display: block;
+    margin-left: 15px;
+    font-size: 9pt;  
+    font-family: Tahoma, Verdana, Segoe, sans-serif ! important;
+      
+}
+
+.checker-board{
+    border: 1px solid black;
+    border-radius: 0px;
+    padding: 5px;
+    display: none;
+    box-sizing: border-box;
+}
+
+.checker-board-wrapper{
+    box-sizing: border-box;
+}
+
+.checkRow {
+    padding:0 ! important;
+    margin:0 ! important;
+}
+
+.checkRow, .checkRow:before, .checkRow:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+    }
+
+.checkCol{
+ display: inline-block;
+ padding:0 ! important;
+ margin:0 ! important;
+ box-sizing: border-box;
+}
+
+
+.checkCol.white{
+    background-color: white;
+}
+
+.checkCol.black{
+    background-color: black;
+}
